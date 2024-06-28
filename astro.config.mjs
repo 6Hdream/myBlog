@@ -5,6 +5,5 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://huoblog.chat",
-  base: "myBlog",
+  site: "https://huoblog.chat"
 });
