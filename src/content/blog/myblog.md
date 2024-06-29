@@ -5,7 +5,7 @@ description: "Here is a sample of some basic Markdown syntax that can be used wh
 
 pubDate: "Jul 01 2022"
 
-heroImage: "/myBlog/blog-placeholder-1.jpg"
+heroImage: "/blog-placeholder-1.jpg"
 ---
 
 今日安阿拉山口多尴尬监理大纲进啦送达给 i 久啊索拉卡估计
