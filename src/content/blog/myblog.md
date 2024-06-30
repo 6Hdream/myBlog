@@ -16,11 +16,15 @@ heroImage: "/picture-4.png"
 
 点击夸克图标
 
-<img src="./../../../public/picture-3.jpg" alt="picture-3" style="zoom:50%;" /> 
+![picture-3](./../../../public/picture-3.jpg) 
+
+ 
 
 第二步 完善高考志愿填报信息
 
-<img src="./../../../public/picture-2.jpg" alt="picture-2" style="zoom:50%;" /> 
+![picture-2](./../../../public/picture-2.jpg) 
+
+ 
 
 ![picture-4](./../../../public/picture-4.png)
 
