@@ -1,6 +1,6 @@
 ---
-title: "问题详解Q&A"
-description: "问题解答"
+title: "关于我"
+description: ""
 pubDate: "Jun 25 2024"
 heroImage: "/blog-placeholder-1.png"
 ---
