@@ -39,62 +39,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
           border-color: black;
         }
       }
-      .code-editor {
-        max-width: 100vw;
-        background-color: #1d1e22;
-        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
-        border-radius: 8px;
-        padding: 2px;
-      }
-
-      .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 10px;
-      }
-
-      .title {
-        font-family: Lato, sans-serif;
-        font-weight: 900;
-        font-size: 14px;
-        letter-spacing: 1.57px;
-        color: rgb(212 212 212);
-      }
-
-      .editor-content {
-        margin: 0 10px 10px;
-        color: white;
-      }
-
-      .property {
-        margin-left: 30px;
-      }
-
-      .property:hover {
-        cursor: text;
-      }
-
-      .editor-content .color-0 {
-        color: rgb(86 156 214);
-      }
-
-      .editor-content .color-1 {
-        color: rgb(255, 255, 255);
-        display: inline-block;
-        padding-bottom: 10px;
-      }
-
-      .editor-content .color-2 {
-        color: rgb(156 220 254);
-        text-decoration: none;
-        display: inline;
-        padding-right: 10px;
-      }
-
-      .editor-content .color-3 {
-        color: rgb(207 146 120);
-      }
     </style>
   </head>
   <body>
@@ -104,7 +48,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
       <div class="m2">
         <div id="typewriter" class="typewriter"></div>
         <script>
-          const texts = ["欢迎来到我的博客网站", "这里有无穷的宝藏", "一个神奇的网站"];
+          const texts = ["欢迎来到我的博客网站", "点击右上角的博客", "可以随便看一看！"];
           const speed = 150;
           const pause = 1000;
           const element = document.getElementById("typewriter");
@@ -142,40 +86,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         </script>
       </div>
       <img src="/mydream.jpg" alt="" />
+      <p class="m1">很喜欢字节公司文化中的一句话：“和优秀的人，做有挑战的事情”</p>
       <p class="m1">
-        这里是我分享个人见解、心得和经验的地方，也是一个与大家交流、互动和学习的平台。在这里，你可以找到各种类型的文章，包括生活感悟、旅行日志、读书笔记、科技动态、投资理财等。我会尽我所能，用文字记录生活的点点滴滴，为大家带来有价值的内容。
-      </p>
-      <p class="m1">
-        作为一名热爱生活、追求技术的博主，我希望通过这个博客，与志同道合的朋友们共同成长、进步。在这里，你可以随时在公众号留言分享你的看法和心得，也可以通过邮件与我取得联系。我相信，真诚的交流与分享会使我们的人生更加丰富多彩。
+        互联网从不缺天才，而努力才是最终的入场券。想找志同道合的朋友一起做一件伟大的事情。感兴趣可以找我聊一聊，邮箱在底部。虽然现在整个想法还处于雏形阶段。不过也会慢慢落实，一点一点来。
       </p>
       <br />
-      <div class="code-editor">
-        <div class="header">
-          <span class="title">一些实用的网站(点击链接即可跳转)</span>
-        </div>
-        <div class="editor-content">
-          <p>
-            <p class="property">
-              <span class="color-1">① 壁纸网站</span><br />
-              <a class="color-2" href="https://bz.zzzmh.cn/index">极简壁纸</a>
-            </p>
-            <p class="property">
-              <span class="color-1">② 素材网站</span><br />
-              <a class="color-2" href="https://huaban.com">花瓣网</a>
-            </p>
-            <p class="property">
-              <span class="color-1">③ 去图片水印网站</span><br />
-              <a class="color-2" href="https://www.vidmore.com/zh/watermark-remover/">idmore</a>
-            </p>
-            <p class="property">
-              <span class="color-1">③ 视频批量下载</span><br />
-              <a class="color-2" href="https://zhouql.vip/bilibili/">blibli-down</a>
-              <a class="color-2" href="https://snapany.com/zh/bilibili">snapy-any</a>
-              <a class="color-2" href="https://www.xiazaitool.com/">下载狗工具</a>
-            </p>
-          </p>
-        </div>
-      </div>
     </main>
 
     <Footer />
